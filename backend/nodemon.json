@@ -1,0 +1,12 @@
+{
+  "watch": ["."],
+  "ext": "js,mjs,json",
+  "ignore": [
+    "node_modules/",
+    "uploads/",
+    "temp_uploads/",
+    "mangas.db",
+    "mangas.db-journal"
+  ],
+  "exec": "node server.js"
+}
